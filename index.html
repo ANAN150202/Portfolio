@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arafat Rafsun Fardin | Portfolio</title>
+  <meta name="description" content="Student portfolio: Research, ML, Web projects, and academic journey." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Top progress bar -->
+  <div class="progress" id="progress"></div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Arafat</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav__links" id="navLinks">
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#skills">Skills</a>
+          <a class="nav__link" href="#projects">Projects</a>
+          <a class="nav__link" href="#education">Education</a>
+          <a class="nav__link" href="#experience">Experience</a>
+          <a class="nav__link" href="#contact">Contact</a>
+
+          <button class="theme" id="themeBtn" aria-label="Toggle theme" title="Toggle theme">
+            <span class="theme__icon" aria-hidden="true">☾</span>
+            <span class="theme__text">Theme</span>
+          </button>
+
+          <a class="btn btn--small" href="cv.pdf" target="_blank" rel="noopener">Download CV</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <p class="kicker">BSc in CSE (2023–Present) • Metropolitan University</p>
+
+          <h1 class="title">
+            CS Student focused on <span class="grad">research</span>, <span class="grad">Machine Learning</span>, and building practical systems.
+          </h1>
+
+          <p class="subtitle">
+            I’m aiming for higher studies (PhD) and an academic career. I enjoy working with datasets, exploring modern AI topics,
+            and turning ideas into well-structured projects.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="hero__meta">
+            <a class="chip" href="mailto:your_email@gmail.com">your_email@gmail.com</a>
+            <a class="chip" href="https://github.com/ANAN150202" target="_blank" rel="noopener">GitHub</a>
+            <a class="chip" href="https://www.linkedin.com/in/arafat-rafsun-fardin-0b9160338/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero__card reveal">
+          <div class="profile">
+            <!-- PHOTO PLACEHOLDER -->
+            <!-- Replace the src with your photo path later -->
+            <img
+              class="profile__img"
+              src="arafat.jpg"
+              alt="Portrait of Arafat Rafsun Fardin"
+              onerror="this.onerror=null; this.src='assets/profile-placeholder.png';"
+            />
+
+            <div class="profile__info">
+              <h2 class="profile__name">Arafat Rafsun Fardin</h2>
+              <p class="profile__role">CS Student | ML Enthusiast | Research Aspirant</p>
+
+              <div class="profile__stats">
+                <div class="stat">
+                  <div class="stat__label">Focus</div>
+                  <div class="stat__value">AI/ML • Research</div>
+                </div>
+                <div class="stat">
+                  <div class="stat__label">Interests</div>
+                  <div class="stat__value">LLMs • Audio • Affective</div>
+                </div>
+                <div class="stat">
+                  <div class="stat__label">Location</div>
+                  <div class="stat__value">Bangladesh</div>
+                </div>
+              </div>
+
+              <div class="profile__actions">
+                <a class="btn btn--small" href="mailto:your_email@gmail.com">Email Me</a>
+                <a class="btn btn--small btn--ghost" href="#education">Academic</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="note">
+            <div class="note__dot"></div>
+            <p>
+              Open to thesis/project work in <b>Large Language Models</b>, <b>Audio Classification</b>, and <b>Affective Computing</b>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">About</h2>
+          <p class="section__desc">
+            A balanced profile: practical development + academic growth + research mindset.
+          </p>
+        </div>
+
+        <div class="about reveal">
+          <div class="card">
+            <h3 class="card__title">Quick Summary</h3>
+            <p class="card__text">
+              I’m a Computer Science & Engineering undergraduate (started 2023). I’m building strong foundations in core CS,
+              while exploring machine learning and research-driven problem solving. My long-term goal is to pursue a PhD and
+              contribute to academia through research and teaching.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">What I’m working on</h3>
+            <ul class="list">
+              <li>Strengthening fundamentals: DSA, OOP, OS, Numerical Methods</li>
+              <li>ML practice: supervised learning, evaluation, working with datasets</li>
+              <li>Research direction: LLMs, audio classification, affective computing</li>
+              <li>Building real projects: PHP/MySQL systems, web and app ideas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__desc">Compact and honest skills list aligned with research + projects.</p>
+        </div>
+
+        <div class="skills reveal">
+          <div class="card">
+            <h3 class="card__title">Programming</h3>
+            <div class="pills">
+              <span class="pill">Python</span>
+              <span class="pill">C++</span>
+              <span class="pill">Java</span>
+              <span class="pill">PHP</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Machine Learning</h3>
+            <div class="pills">
+              <span class="pill">Supervised Learning</span>
+              <span class="pill">Data Preprocessing</span>
+              <span class="pill">Feature Engineering</span>
+              <span class="pill">Model Evaluation</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Core CS</h3>
+            <div class="pills">
+              <span class="pill">Data Structures & Algorithms</span>
+              <span class="pill">OOP</span>
+              <span class="pill">Operating Systems</span>
+              <span class="pill">Numerical Methods</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Tools & Web</h3>
+            <div class="pills">
+              <span class="pill">MySQL</span>
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">Git (basic)</span>
+              <span class="pill">Jupyter/Colab</span>
+              <span class="pill">Kaggle</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Research</h3>
+            <div class="pills">
+              <span class="pill">Analytical Thinking</span>
+              <span class="pill">Experimentation</span>
+              <span class="pill">Literature Review (basic)</span>
+              <span class="pill">Academic Writing (basic)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__desc">Selected projects that show learning + practical implementation.</p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="ml">ML</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="cs">Core CS</button>
+        </div>
+
+        <div class="grid reveal" id="projectGrid">
+          <article class="project card" data-tags="ml">
+            <div class="project__top">
+              <h3 class="card__title">Lung Cancer Prediction</h3>
+              <span class="badge">ML</span>
+            </div>
+            <p class="card__text">
+              Built a supervised ML workflow using real-world medical data: preprocessing, feature engineering, and evaluation.
+            </p>
+            <ul class="mini">
+              <li><b>Stack:</b> Python, data preprocessing, model evaluation</li>
+              <li><b>Outcome:</b> practical understanding of classification pipelines</li>
+            </ul>
+            <div class="project__links">
+              <a class="link" href="#" target="_blank" rel="noopener">Report</a>
+              <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="web">
+            <div class="project__top">
+              <h3 class="card__title">Student Management System</h3>
+              <span class="badge">PHP</span>
+            </div>
+            <p class="card__text">
+              CRUD-based web app with a relational database design and secure server-side implementation.
+            </p>
+            <ul class="mini">
+              <li><b>Stack:</b> PHP, MySQL, HTML/CSS</li>
+              <li><b>Focus:</b> prepared statements, DB relations, clean forms</li>
+            </ul>
+            <div class="project__links">
+              <a class="link" href="https://coaching-enrollmemt.wuaze.com/" target="_blank" rel="noopener">Demo</a>
+              <a class="link" href="https://github.com/ANAN150202/Coaching-Enrollment-System" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="cs">
+            <div class="project__top">
+              <h3 class="card__title">Numerical Methods Implementations</h3>
+              <span class="badge">Core CS</span>
+            </div>
+            <p class="card__text">
+              Implemented common numerical techniques and presented results cleanly (tables, iteration outputs).
+            </p>
+            <ul class="mini">
+              <li><b>Topics:</b> Bisection, Newton-Raphson, Secant (example)</li>
+              <li><b>Goal:</b> accuracy, clarity, and structured results</li>
+            </ul>
+            <div class="project__links">
+              <a class="link" href="#" target="_blank" rel="noopener">Notes</a>
+              <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <article class="project card" data-tags="web">
+            <div class="project__top">
+              <h3 class="card__title">Web Development Learning Track</h3>
+              <span class="badge">Course</span>
+            </div>
+            <p class="card__text">
+              Practicing modern web fundamentals and building small UI components and pages.
+            </p>
+            <ul class="mini">
+              <li><b>Platform:</b> Ostad</li>
+              <li><b>Focus:</b> frontend + backend concepts</li>
+            </ul>
+            <div class="project__links">
+              <a class="link" href="#" target="_blank" rel="noopener">Certificate</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Education & Courses</h2>
+          <p class="section__desc">Academic timeline + key extra courses/certifications.</p>
+        </div>
+
+        <div class="grid reveal">
+          <div class="card">
+            <h3 class="card__title">BSc in Computer Science & Engineering</h3>
+            <p class="muted">Metropolitan University • 2023 – Present</p>
+            <ul class="list">
+              <li>Focused on core CS foundations and research preparation</li>
+              <li>Long-term goal: MSc/PhD and academic career</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Coursera</h3>
+            <p class="muted">Supervised Machine Learning: Regression and Classification</p>
+            <ul class="list">
+              <li>Regression, classification, model evaluation fundamentals</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">University Extra Course</h3>
+            <p class="muted">Python & Data Science</p>
+            <ul class="list">
+              <li>Completed course + built ML project using datasets</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Ostad</h3>
+            <p class="muted">Web Development Course (ongoing/started)</p>
+            <ul class="list">
+              <li>Frontend and backend fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Experience</h2>
+          <p class="section__desc">Not a job-heavy profile — presented professionally and honestly.</p>
+        </div>
+
+        <div class="grid reveal">
+          <div class="card">
+            <h3 class="card__title">Assistant</h3>
+            <p class="muted">Centre of Strategy and Policy Innovation (MU) • 1 year</p>
+            <ul class="list">
+              <li>Supported academic/administrative tasks and documentation</li>
+              <li>Developed teamwork, responsibility, and communication skills</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Research Direction (Interested Areas)</h3>
+            <ul class="list">
+              <li>Large Language Models (LLMs)</li>
+              <li>Audio Classification</li>
+              <li>Affective Computing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__desc">Send a message — I reply quickly.</p>
+        </div>
+
+        <div class="contact reveal">
+          <div class="card">
+            <h3 class="card__title">Direct</h3>
+            <p class="card__text">
+              Email is best for academic discussions, projects, and thesis opportunities.
+            </p>
+
+            <div class="contact__row">
+              <a class="btn" href="mailto:your_email@gmail.com">Email</a>
+              <a class="btn btn--ghost" href="cv.pdf" target="_blank" rel="noopener">Open CV</a>
+            </div>
+
+            <div class="hero__meta" style="margin-top:12px;">
+              <a class="chip" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+              <a class="chip" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="chip" href="#top">Back to top ↑</a>
+            </div>
+          </div>
+
+          <form class="card form" onsubmit="return false;">
+            <h3 class="card__title">Quick Message (optional)</h3>
+
+            <label class="field">
+              <span>Name</span>
+              <input type="text" placeholder="Your name" />
+            </label>
+
+            <label class="field">
+              <span>Email</span>
+              <input type="email" placeholder="you@example.com" />
+            </label>
+
+            <label class="field">
+              <span>Message</span>
+              <textarea rows="5" placeholder="Write your message..."></textarea>
+            </label>
+
+            <button class="btn" type="button" id="fakeSendBtn">Send (Demo)</button>
+            <p class="muted small" id="fakeSendMsg"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Arafat Rafsun Fardin • Built with HTML/CSS/JS</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
